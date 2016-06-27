@@ -32,7 +32,7 @@ public class NewActivity extends AppCompatActivity {
                 mNewActivitySubmission.putExtra("name", information);
                 String data = mActivityDesc.getText().toString();
                 mNewActivitySubmission.putExtra("description", data); // Intent = getIntent()  ...   .getExtra("description")
-                startActivity(mNewActivitySubmission);
+                startActivity(mNewActivitySubmission);startActivity(mNewActivitySubmission);
             }
         };
         btn_new_act_sub.setOnClickListener(mNewActivitySubView);
